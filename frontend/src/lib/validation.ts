@@ -1,4 +1,3 @@
-const unused_variable = 'lint error';
 export const MAX_ISSUE_WORDS = 300;
 export const MAX_LOCATION_CHARS = 50;
 export const MAX_TITLE_CHARS = 100;
