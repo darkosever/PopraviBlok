@@ -36,11 +36,3 @@ PopraviBlok zbere prijave, dodeljevanje in odpravo na enem mestu, z jasnim potek
 3. Serviser nalog sprejme (ali zavrne z razlogom), opravi delo in ga označi kot odpravljenega.
 4. Stanovalec **potrdi odpravo** (prijava se zapre) ali jo **zavrne** (prijava se vrne upravniku).
 5. Vsaka sprememba statusa se zapiše v zgodovino, udeleženci pa prejmejo obvestilo.
-
-
-
-
-
-
-
-
