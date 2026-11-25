@@ -37,4 +37,4 @@ Pregledanih je 5 osrednjih uporabniških zgodb.
 **Zadošča.** Upravnik doda serviserja z e-naslovom; ob neznanem e-naslovu se prikaže napaka. Sistem pri dodelitvi ponudi samo serviserje tega bloka z ustrezno stroko. Upravnik izbere prioriteto (`LOW`, `NORMAL`, `URGENT`). Po dodelitvi je status `ASSIGNED` z nastavljenim `assignee_id`.
 
 ### US-05 – Nadzorovan potek statusov
-**Zadošča.** DB funkcija `transition_issue` zavrne neveljavne prehode in nepooblaščene vloge na ravni podatkovne baze. Vsak uspešen prehod v isti transakciji ustvari zapis `IssueEvent`. Neposredna sprememba polja `status` ni možna mimo te funkcije (RLS politike). Upravnik lahko prijavo `NEW` zavrne z razlogom, ki se shrani v zgodovino.
+**Zadošča.** DB funkcija `transition_issue` zavrne neveljavne prehode in nepooblaščene vloge na ravni podatkovne baze. Vsak uspešen prehod v isti transakciji ustvari zapis `IssueEvent`. Neposredna sprememba polja `status` ni možna mimo te funkcije (RLS politike). Upravnik lahko prijavo `NEW` zavrne z razlogom, ki se shrani v zgodovino..
